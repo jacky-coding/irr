@@ -1,6 +1,8 @@
-#include"iostream"
+#include "irr/irrlicht.h"
+
+
 
 int main()
 {
-	std::cout << "hello world" << std::endl;
+	
 }

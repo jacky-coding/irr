@@ -52,6 +52,8 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -77,6 +79,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="Irrlicht.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dimension2d.h" />
+    <ClInclude Include="EDriverTypes.h" />
+    <ClInclude Include="IEventReceiver.h" />
+    <ClInclude Include="IReferenceCounted.h" />
+    <ClInclude Include="IrrCompileConfig.h" />
+    <ClInclude Include="irrlicht.h" />
+    <ClInclude Include="IrrlichtDevice.h" />
+    <ClInclude Include="irrMath.h" />
+    <ClInclude Include="irrTypes.h" />
+    <ClInclude Include="Keycodes.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -9,14 +9,48 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
-    <Filter Include="资源文件">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="源文件\Math">
+      <UniqueIdentifier>{0c31a302-1f95-483b-99ae-e90c74527119}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Irrlicht.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="irrlicht.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="irrTypes.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IReferenceCounted.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IrrCompileConfig.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IrrlichtDevice.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EDriverTypes.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dimension2d.h">
+      <Filter>源文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="IEventReceiver.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Keycodes.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="irrMath.h">
+      <Filter>源文件\Math</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
