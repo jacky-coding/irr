@@ -16,6 +16,12 @@ namespace irr
 		bool stencilbuffer = false,
 		bool vsync = false,
 		IEventReceiver* receiver = 0);
+
+	namespace core{}
+	namespace gui{}
+	namespace io{}
+	namespace scene{}
+	namespace video{}
 }
 
 #endif
